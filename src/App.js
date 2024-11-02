@@ -46,7 +46,7 @@ const App = () => {
 
 
   return (
-    <Router>
+    <Router  basename="/TaskManager">
       <div className="d-flex flex-column min-vh-100">
         <Header 
           isAuthenticated={isAuthenticated} 
