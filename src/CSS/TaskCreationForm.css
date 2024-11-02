@@ -1,0 +1,42 @@
+.task-creation-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center; 
+  padding: 20px; 
+  height: 80vh; 
+  overflow: hidden; 
+  animation: fadeIn 1s ease-in-out;
+}
+
+
+.task-creation-card {
+  width: 1000px; 
+  background: linear-gradient(90deg, #ad4242 0%, #b68888 100%);
+  padding:20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: auto; 
+
+}
+
+
+
+
+@media (max-width: 1100px) {
+  .task-creation-card {
+    
+    width: 90%; 
+    max-height: 100vh; 
+    margin: 0px;
+   
+
+  }
+
+  .task-creation-container {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+  }
+}

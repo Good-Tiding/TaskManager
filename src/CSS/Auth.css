@@ -1,0 +1,15 @@
+/* Auth.css */
+
+.auth-container {
+    height: calc(100vh - 100px);
+    overflow: auto;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.auth-card {
+    width: 300px;
+    margin: 0 auto; 
+    background: linear-gradient(90deg, #ad4242 0%, #b68888 100%);
+    padding: 30px;
+    border-radius: 8px;
+}

@@ -1,0 +1,39 @@
+.modal
+{
+display: flex;
+flex-direction: column; 
+align-items: center; 
+justify-content: center;
+padding:50px; 
+height: 80vh;
+overflow: hidden; 
+}
+.custom-modal {
+  background: linear-gradient(90deg, #ad4242 0%, #b68888 100%) !important;
+  border: none; 
+}
+.modal-content
+{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: auto; 
+}
+
+
+/* Responsive Styles */
+@media (max-width: 1100px) {
+    .modal-content {
+      
+    
+      max-height: 70vh; 
+       
+  
+    }
+  
+  }
+
+  @media (min-width: 240px) and (max-width: 600px) {
+    .modal-content{
+        max-height: 60vh;
+        margin-top: 50px;
+    }
+  }
