@@ -1,0 +1,16 @@
+/* login.css */
+
+.login-container {
+    height: calc(100vh - 150px);
+    overflow: auto;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.login-card {
+  width: 300px;
+  margin: 0 auto; /* Center the card horizontally */
+  background: linear-gradient(90deg, #ad4242 0%, #b68888 100%);
+  padding: 30px;
+  border-radius: 8px;
+
+}
